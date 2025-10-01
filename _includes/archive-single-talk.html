@@ -26,17 +26,36 @@
       </div>
     {% endif %}
     <h2 class="archive__item-title" itemprop="headline">
-      {% if post.link %}
-        <a href="{{ post.link }}">{{ title }}</a> <a href="{{ base_path }}{{ post.url }}" rel="permalink"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
-      {% else %}
-        <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
-      {% endif %}
+    {% if post.titleurl %}
+    <a href="{{ post.slides }}">{{ title }}</a>
+    {% else %}
+    <strong>{{ title }}</strong>
+    {% endif %}
+
     </h2>
     {% if post.read_time %}
       <p class="page__meta"><i class="fa fa-clock" aria-hidden="true"></i> {% include read-time.html %}</p>
     {% endif %}
-    {% if post.date %}<p class="page__meta"><i class="fa fa-clock" aria-hidden="true"></i> {{ post.date | date: '%B %d, %Y' }}</p>{% endif %}
-    {% if post.venue %}<p class="archive__item-excerpt" itemprop="description">{{post.type}}, {{ post.venue }},  {{post.location}} {% endif %}
+    {% if post.date %}<p class="page__meta"><i class="fa fa-clock" aria-hidden="true"></i> {{ post.date | date: '%B %d, %Y' }}</p> {% endif %}
+
+    {% if post.venue and post.venue_url and post.series_url %}
+      <p class="archive__item-url" itemprop="description">{{ post.type }}, <a href="{{ post.series_url }}">{{ post.series }}</a>, <a href="{{ post.venue_url }}">{{ post.venue }}</a>.</p> 
+    {% else %}  
+	  {% if post.venue_url %}
+      		<p class="archive__item-url" itemprop="description">{{ post.type }}, <a href="{{ post.venue_url }}"> {{ post.venue }}</a>.</p> 
+	  {% else %} 
+	{% if post.venue %}
+	      <p class="archive__item-url" itemprop="description">{{ post.type }}, {{ post.venue }}.</p> 
+	{% else %}  
+        <p class="archive__item-url" itemprop="description">{{ post.type }}, {{ post.series }}, {{ post.venue }}.</p>
+    {% endif %}
+    {% endif %}
+    {% endif %}
     {% if post.excerpt %}<p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</p>{% endif %}
+
+    {% if post.slides %}
+    <a href="{{ post.slides }}">Donwload Slides</a>
+    {% endif %}
+
   </article>
 </div>

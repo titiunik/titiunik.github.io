@@ -8,8 +8,21 @@
 #      Markdown formatted page while the second is generated using JSON.
 
 main:
+
+  - title: "CV"
+    url: /files/cv-Rocio-Titiunik.pdf
+
+  - title: "Bio"
+    url: /bio/
+
   - title: "Publications"
     url: /publications/
+
+  - title: "Research in Progress"
+    url: /inprogress/
+
+  - title: "Software"
+    url: /software/  
 
   - title: "Talks"
     url: /talks/    
@@ -17,17 +30,5 @@ main:
   - title: "Teaching"
     url: /teaching/    
     
-  - title: "Portfolio"
-    url: /portfolio/
-        
-  - title: "Blog Posts"
-    url: /year-archive/
-    
-  - title: "CV"
-    url: /cv/
-    
-  # - title: "CV"
-  #   url: /cv-json/
-    
-  - title: "Guide"
-    url: /markdown/
+  - title: "Short Courses"
+    url: /shcourses/

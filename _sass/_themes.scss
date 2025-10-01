@@ -3,6 +3,19 @@
    ========================================================================== */
 
 /* ==========================================================================
+   CUSTOMIZE SPACE BETWEEN LIST ITEMS, SO THAT PUBLICATIONS LOOK NICER
+   ========================================================================== */
+
+li p {  		/* Controls how much vertical space in between each <p></p> witin li*/
+  margin-top: 0.25em;
+  margin-bottom: 0.25em;
+}
+
+li {
+  margin-bottom: 2em; /* Controls how much space between each li*/
+}
+
+/* ==========================================================================
    TYPOGRAPHY
    ========================================================================== */
 
