@@ -87,7 +87,7 @@ publication_category:
     title: 'Journal Articles'   
   software:
     title: 'Software Articles'     
-  software:
+  chapters:
     title: 'Chapters and Others'  
   conferences:
     title: 'Conference Papers'
