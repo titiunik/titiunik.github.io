@@ -9,7 +9,7 @@ pages: '2024'
 title_link: "https://doi.org/10.1017/9781009441896"
 links:
   - name: "Preprint version"
-    url: "/files/publications/CattaneoIdroboTitiunik2024-CUP-Extensions.pdf"
+    url: "https://arxiv.org/abs/2301.08958"
   - name: "Replication files"
     url: "https://github.com/rdpackages-replication/CIT_2024_CUP"
 ---

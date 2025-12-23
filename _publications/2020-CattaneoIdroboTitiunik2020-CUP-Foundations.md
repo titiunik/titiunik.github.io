@@ -9,7 +9,7 @@ pages: '2020'
 title_link: "https://doi.org/10.1017/9781108684606"
 links:
   - name: "Preprint version"
-    url: "/files/publications/CattaneoIdroboTitiunik2020-CUP-Foundations.pdf"
+    url: "https://arxiv.org/abs/1911.09511"
   - name: "Replication files"
     url: "https://github.com/rdpackages-replication/CIT_2019_CUP"
 ---
