@@ -2,7 +2,6 @@
 title: "Drawing Your Senator From a Jar: Term Length and Legislative Behavior"
 collection: publications
 category: manuscripts
-coauthors: ''
 date: 2016-01-01
 venue: 'Political Science Research and Methods'
 pages: '4(2): 293-316'
