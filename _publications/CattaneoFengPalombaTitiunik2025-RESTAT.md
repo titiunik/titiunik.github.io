@@ -3,7 +3,7 @@ title: "Uncertainty Quantification in Synthetic Controls with Staggered Treatmen
 collection: publications
 category: manuscripts
 coauthors: 'Matias D. Cattaneo, Yingjie Feng and Filippo Palomba'
-date: 2025-01-01
+date: 2026-06-03
 pages: 'forthcoming'
 title_link: "/files/publications/CattaneoFengPalombaTitiunik2025-RESTAT.pdf"
 venue: 'Review of Economics and Statistics'

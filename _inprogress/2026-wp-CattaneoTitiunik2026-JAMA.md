@@ -4,6 +4,6 @@ collection: inprogress
 coauthors: 'Matias Cattaneo'
 date: 2025-09-28
 note: 'Submitted to the <em>Journal of American Medical Association</em>. Invited article.'
-pages: '2025'
+pages: ''
 title_link: "/files/publications/CattaneoTitiunik2025-JAMA.pdf"
 ---

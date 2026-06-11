@@ -3,8 +3,8 @@ title: "Estimation and Inference in Boundary Discontinuity Designs: Distance-Bas
 collection: publications
 category: manuscripts
 coauthors: 'Matias Cattaneo and Rae Yu'
-date: 2026-01-01
+date: 2026-01-02
 venue: 'Journal of Econometrics'
-pages: '2026'
+pages: '256 (Part A): 106266, 2026.'
 title_link: "/files/publications/CattaneoTitiunikYu2026-JOE.pdf"
 ---

@@ -3,6 +3,4 @@ title: "The Advent of the Inference Era: Science Production in the Social Scienc
 collection: inprogress
 coauthors: 'Nicolas Idrobo, Arthur Lupia and Hwayong Shin'
 date: 2025-09-01
-venue: 'In progress'
-pages: '2025'
 ---

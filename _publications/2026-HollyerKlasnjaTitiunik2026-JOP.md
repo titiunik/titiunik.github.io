@@ -3,7 +3,7 @@ title: 'Charismatic Leaders and Democratic Backsliding'
 collection: publications
 category: manuscripts
 coauthors: 'James Hollyer and Marko Klašnja'
-date: 2025-09-30
+date: 2026-06-05
 pages: 'forthcoming'
 venue: 'Journal of Politics'
 title_link: "/files/publications/HollyerKlasnjaTitiunik2026-JOP.pdf"
