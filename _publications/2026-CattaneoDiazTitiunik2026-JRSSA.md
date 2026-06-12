@@ -3,7 +3,7 @@ title: "Randomization Inference for Before-and-After Studies with Multiple Units
 collection: publications
 category: manuscripts
 coauthors: 'Matias Cattaneo and Carlos Diaz'
-date: 2026-01-01
+date: 2026-01-05
 pages: 'forthcoming'
 venue: 'Journal of the Royal Statistical Society: Series A'
 title_link: "/files/publications/CattaneoDiazTitiunik2025-JRSSA.pdf"
