@@ -279,8 +279,10 @@
 
       &.author__urls-pipe::after {
         content: "|";
-        margin: 0 5px;
+        margin: 0 4px;
         color: #aaa;
+        font-size: 0.85em;
+        vertical-align: 0.05em;
       }
 
       &.author__urls-linebreak::after {
