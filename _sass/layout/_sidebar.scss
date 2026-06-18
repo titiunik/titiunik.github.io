@@ -148,12 +148,12 @@
 }
 
 .author__bio {
-  margin: 0;
+  margin: 0 0 0 0 !important;
   line-height: 1.4;
 }
 
 .author__employer {
-  margin: 0;
+  margin: 0 0 0 0 !important;
   line-height: 1.4;
 }
 
@@ -275,16 +275,17 @@
 
     @include breakpoint($large) {
       display: inline;
+      margin-bottom: 0;
 
       &.author__urls-pipe::after {
         content: "|";
         margin: 0 5px;
         color: #aaa;
-        vertical-align: middle;
       }
 
       &.author__urls-newline {
         display: block;
+        margin-top: 2px;
       }
     }
   }
