@@ -161,8 +161,10 @@
   width: 22px !important;
   height: auto;
   display: inline !important;
-  vertical-align: middle;
-  margin-left: 2px;
+  vertical-align: baseline;
+  margin-left: 3px;
+  position: relative;
+  top: -1px;
 }
 
 .author__urls-wrapper {
@@ -266,12 +268,6 @@
     @include breakpoint($large) {
       display: none;
     }
-  }
-
-  @include breakpoint($large) {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
   }
 
   li {
