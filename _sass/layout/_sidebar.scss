@@ -277,10 +277,17 @@
       display: inline;
       margin-bottom: 0;
 
-      &.author__urls-pipe::after {
-        content: "\2022";
-        margin: 0 5px;
-        color: #aaa;
+      &.author__urls-pipe {
+        display: inline-block;
+        width: 55px;
+        text-align: left;
+
+        &::after {
+          content: "\2022";
+          margin: 0 5px;
+          color: #aaa;
+          float: right;
+        }
       }
 
       &.author__urls-linebreak::after {
