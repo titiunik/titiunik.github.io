@@ -283,9 +283,9 @@
         color: #aaa;
       }
 
-      &.author__urls-newline {
-        display: block;
-        margin-top: 2px;
+      &.author__urls-linebreak::after {
+        content: "\A";
+        white-space: pre;
       }
     }
   }
