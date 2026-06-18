@@ -286,11 +286,22 @@
     @include breakpoint($large) {
       display: inline;
 
-      &:not(:last-child)::after {
+      &:not(:last-child):not(.author__urls-newline)::after {
         content: "|";
         margin: 0 4px;
         color: #aaa;
       }
+
+      /* Also hide pipe after the item BEFORE a newline item */
+      &:has(+ .author__urls-newline)::after {
+        display: none;
+      }
+    }
+  }
+
+  .author__urls-newline {
+    @include breakpoint($large) {
+      display: block;
     }
   }
 
