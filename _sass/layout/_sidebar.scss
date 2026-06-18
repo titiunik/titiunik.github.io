@@ -147,33 +147,6 @@
   }
 }
 
-.author__affiliation {
-  @include breakpoint($large) {
-    display: flex;
-    align-items: center;
-    margin-top: 4px;
-  }
-}
-
-.author__affiliation-text {
-  flex: 1;
-}
-
-.author__affiliation-logo {
-  display: none;
-
-  @include breakpoint($large) {
-    display: block;
-    flex-shrink: 0;
-    margin-left: 8px;
-
-    img {
-      width: 32px;
-      height: auto;
-    }
-  }
-}
-
 .author__bio {
   margin: 0;
   line-height: 1.4;
@@ -182,6 +155,19 @@
 .author__employer {
   margin: 0;
   line-height: 1.4;
+}
+
+.author__uni-logo {
+  display: none;
+
+  @include breakpoint($large) {
+    display: block;
+    width: 30px !important;
+    height: auto;
+    margin-top: 6px;
+    float: right;
+    margin-top: -2.4em;
+  }
 }
 
 .author__urls-wrapper {
