@@ -274,8 +274,24 @@
     }
   }
 
+  @include breakpoint($large) {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
   li {
     white-space: nowrap;
+
+    @include breakpoint($large) {
+      display: inline;
+
+      &:not(:last-child)::after {
+        content: "|";
+        margin: 0 4px;
+        color: #aaa;
+      }
+    }
   }
 
   a {
@@ -287,6 +303,12 @@
     color: inherit;
     font-size: $type-size-5;
     text-decoration: none;
+
+    @include breakpoint($large) {
+      display: inline;
+      margin-bottom: 0;
+      padding: 0;
+    }
 
     &:hover {
       text-decoration: underline;
