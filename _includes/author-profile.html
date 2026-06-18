@@ -36,7 +36,7 @@
         <li class="author__desktop" style="font-size: 0.88em;"><img src="{{ '/images/PU-logo_Page_01.jpg' | prepend: base_path }}" alt="My University Logo" class="icon-pad-right" style="width: 25px;vertical-align: middle; float: left;">{{ author.employer }}</li>
       {% endif %}
       {% if site.author.cv_url %}
-        <a href="{{ site.author.cv_url }}"><i class="fas fa-file-pdf"></i> CV</a>
+        <li><a href="{{ site.author.cv_url }}"><i class="fas fa-fw fa-file-pdf icon-pad-right"></i>CV</a></li>
       {% endif %}
       {% if author.uri %}
         <li><a href="{{ author.uri }}"><i class="fas fa-fw fa-link icon-pad-right" aria-hidden="true"></i>{{ site.data.ui-text[site.locale].website_label | default: "Website" }}</a></li>
