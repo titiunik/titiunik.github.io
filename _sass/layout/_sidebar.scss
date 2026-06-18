@@ -114,7 +114,6 @@
     width: 100%;
     padding-left: 0;
     padding-right: 0;
-    position: relative;
   }
 }
 
@@ -159,16 +158,11 @@
 }
 
 .author__uni-logo {
-  display: none;
-
-  @include breakpoint($large) {
-    display: block;
-    width: 30px !important;
-    height: auto;
-    position: absolute;
-    right: 0;
-    bottom: 0;
-  }
+  width: 22px !important;
+  height: auto;
+  display: inline !important;
+  vertical-align: middle;
+  margin-left: 2px;
 }
 
 .author__urls-wrapper {
@@ -286,22 +280,16 @@
     @include breakpoint($large) {
       display: inline;
 
-      &:not(:last-child):not(.author__urls-newline)::after {
+      &.author__urls-pipe::after {
         content: "|";
-        margin: 0 4px;
+        margin: 0 5px;
         color: #aaa;
+        vertical-align: middle;
       }
 
-      /* Also hide pipe after the item BEFORE a newline item */
-      &:has(+ .author__urls-newline)::after {
-        display: none;
+      &.author__urls-newline {
+        display: block;
       }
-    }
-  }
-
-  .author__urls-newline {
-    @include breakpoint($large) {
-      display: block;
     }
   }
 

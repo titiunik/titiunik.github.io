@@ -18,8 +18,7 @@
     <h2 class="author__name">{{ author.name }}</h2>
     {% if author.pronouns %}<p class="author__pronouns">{{ author.pronouns }}</p>{% endif %}
     {% if author.bio %}<p class="author__bio">{{ author.bio }}</p>{% endif %}
-    {% if author.employer %}<p class="author__employer">{{ author.employer }}</p>{% endif %}
-    <img src="{{ '/images/PU-logo_Page_01.jpg' | prepend: base_path }}" alt="Princeton University" class="author__uni-logo">
+    {% if author.employer %}<p class="author__employer">{{ author.employer }} <img src="{{ '/images/PU-logo_Page_01.jpg' | prepend: base_path }}" alt="" class="author__uni-logo"></p>{% endif %}
   </div>
 
   <div class="author__urls-wrapper">
@@ -30,13 +29,13 @@
         <li class="author__desktop"><i class="fas fa-fw fa-location-dot icon-pad-right" aria-hidden="true"></i>{{ author.location }}</li>
       {% endif %}
       {% if site.author.cv_url %}
-        <li><a href="{{ site.author.cv_url }}"><i class="fas fa-fw fa-file-pdf icon-pad-right"></i>CV</a></li>
+        <li class="author__urls-pipe"><a href="{{ site.author.cv_url }}"><i class="fas fa-fw fa-file-pdf icon-pad-right"></i>CV</a></li>
       {% endif %}
       {% if author.email %}
         <li><a href="mailto:{{ author.email }}"><i class="fas fa-fw fa-envelope icon-pad-right" aria-hidden="true"></i>{{ site.data.ui-text[site.locale].email_label | default: "Email" }}</a></li>
       {% endif %}
       {% if author.arxiv %}
-        <li class="author__urls-newline"><a href="{{ author.arxiv }}"><i class="ai ai-arxiv ai-fw icon-pad-right"></i>arXiv</a></li>
+        <li class="author__urls-newline author__urls-pipe"><a href="{{ author.arxiv }}"><i class="ai ai-arxiv ai-fw icon-pad-right"></i>arXiv</a></li>
       {% endif %}
       {% if author.orcid %}
         <li><a href="{{ author.orcid }}"><i class="ai ai-orcid ai-fw icon-pad-right"></i>ORCID</a></li>
