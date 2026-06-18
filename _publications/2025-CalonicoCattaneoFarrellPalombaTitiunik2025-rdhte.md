@@ -3,7 +3,7 @@ title: "rdhte: Conditional Average Treatment Effects in Regression Discontinuity
 collection: publications
 category: software
 coauthors: 'Sebastian Calonico, Matias D. Cattaneo, Max H. Farrell and Filippo Palomba'
-date: 2026-06-01
+date: 2026-01-01
 venue: 'Working paper'
 pages: '2025'
 title_link: "/files/publications/CalonicoCattaneoFarrellPalombaTitiunik2025-Stata.pdf"
