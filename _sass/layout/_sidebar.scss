@@ -89,7 +89,6 @@
     display: block;
     width: auto;
     height: auto;
-    text-align: center;
   }
 
   img {
@@ -99,8 +98,6 @@
     @include breakpoint($large) {
       padding: 3px;
       border: 1px solid #e0e0e0;
-      margin: 0 auto;
-      display: block;
     }
   }
 }
@@ -117,7 +114,6 @@
     width: 100%;
     padding-left: 0;
     padding-right: 0;
-    text-align: center;
   }
 }
 
@@ -125,8 +121,8 @@
   margin: 0;
 
   @include breakpoint($large) {
-    margin-top: 12px;
-    margin-bottom: 6px;
+    margin-top: 10px;
+    margin-bottom: 4px;
   }
 }
 .sidebar .author__name {
@@ -155,13 +151,19 @@
   margin: 0;
 
   @include breakpoint($large) {
-    margin-top: 4px;
-    margin-bottom: 16px;
-    text-align: center;
+    margin-top: 2px;
+    margin-bottom: 0;
   }
 }
 
 .author__urls-wrapper {
+  /* Separator between profile info and links list */
+  @include breakpoint($large) {
+    margin-top: 20px;
+    padding-top: 16px;
+    border-top: 1px solid #eaecef;
+  }
+
   position: relative;
   display: table-cell;
   vertical-align: middle;
