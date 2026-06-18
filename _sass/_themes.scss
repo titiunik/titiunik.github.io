@@ -12,7 +12,7 @@ li p {  		/* Controls how much vertical space in between each <p></p> witin li*/
 }
 
 li {
-  margin-bottom: 1.1em; /* Controls how much space between each li*/
+  margin-bottom: 0.6em; /* Controls how much space between each li*/
 }
 
 /* ==========================================================================
@@ -20,7 +20,7 @@ li {
    ========================================================================== */
 
 /* Used to set the size for <em> */
-$doc-font-size              : 15;
+$doc-font-size              : 14;
 
 /* Paragraph indention */
 $paragraph-indent           : false; // true, false (default)
@@ -28,7 +28,7 @@ $indent-var                 : 1.3em;
 
 /* System typefaces */
 $serif                      : Georgia, Times, serif;
-$sans-serif                 : "Inter", -apple-system, "Segoe UI", "Roboto", "Helvetica Neue", Arial, sans-serif;
+$sans-serif                 : -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
 $monospace                  : Monaco, Consolas, "Lucida Console", monospace;
 
 /* Sans serif typefaces */
@@ -42,15 +42,15 @@ $bodoni                     : "Bodoni MT", serif;
 $calisto                    : "Calisto MT", serif;
 $garamond                   : Garamond, serif;
 
-/* Type scale — tightened for a cleaner look */
-$type-size-1                : 2.1em;    // ~31px
-$type-size-2                : 1.7em;    // ~25px
-$type-size-3                : 1.4em;    // ~21px
-$type-size-4                : 1.15em;   // ~17px
-$type-size-5                : 1em;      // ~15px
-$type-size-6                : 0.8em;    // ~12px
-$type-size-7                : 0.73em;   // ~11px
-$type-size-8                : 0.67em;   // ~10px
+/* Type scale — matches GitHub/Primer proportions */
+$type-size-1                : 2em;      // ~28px
+$type-size-2                : 1.5em;    // ~21px
+$type-size-3                : 1.25em;   // ~17.5px
+$type-size-4                : 1em;      // ~14px
+$type-size-5                : 1em;      // ~14px
+$type-size-6                : 0.875em;  // ~12.25px
+$type-size-7                : 0.85em;   // ~11.9px
+$type-size-8                : 0.75em;   // ~10.5px
 
 $global-font-family         : $sans-serif;
 $header-font-family         : $sans-serif;

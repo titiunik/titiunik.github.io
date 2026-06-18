@@ -16,7 +16,7 @@ body {
   padding: $masthead-height 0 0;
   padding-bottom: 9em;
   font-family: $global-font-family;
-  line-height: 1.6;
+  line-height: 1.5;
 
   &.overflow--hidden {
     /* when primary navigation is visible, the content in the background won't scroll */
@@ -25,11 +25,11 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  margin: 1.4em 0 0.4em;
+  margin-top: 24px;
+  margin-bottom: 16px;
   line-height: 1.25;
   font-family: $header-font-family;
   font-weight: 600;
-  letter-spacing: -0.01em;
 }
 
 h1 {
@@ -62,7 +62,7 @@ small, .small {
 }
 
 p {
-  margin-bottom: 1em;
+  margin-bottom: 16px;
 }
 
 u,
@@ -177,7 +177,7 @@ hr {
 
 ul li,
 ol li {
-  margin-bottom: 0.5em;
+  margin-bottom: 0.25em;
 }
 
 li ul,

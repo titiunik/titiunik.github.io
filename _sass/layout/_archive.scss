@@ -29,13 +29,11 @@
 
 .archive__subtitle {
   margin: 1.2em 0 0;
-  padding-bottom: 0.35em;
-  font-size: $type-size-5;
+  padding-bottom: 0.3em;
+  font-size: $type-size-2;
   font-weight: 600;
-  letter-spacing: 0.02em;
-  text-transform: uppercase;
-  color: var(--global-text-color-light);
-  border-bottom: 1px solid #ddd;
+  color: var(--global-text-color);
+  border-bottom: 1px solid #eaecef;
 
   + .list__item .archive__item-title {
     margin-top: 0.5em;
