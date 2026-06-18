@@ -283,8 +283,8 @@
         text-align: left;
 
         &::after {
-          content: "\2022";
-          margin: 0 5px;
+          content: "|";
+          margin-left: 5px;
           color: #aaa;
           float: right;
         }
