@@ -17,8 +17,17 @@
   <div class="author__content">
     <h2 class="author__name">{{ author.name }}</h2>
     {% if author.pronouns %}<p class="author__pronouns">{{ author.pronouns }}</p>{% endif %}
-    {% if author.bio %}<p class="author__bio">{{ author.bio }}</p>{% endif %}
-    {% if author.employer %}<p class="author__employer"><img src="{{ '/images/PU-logo_Page_01.jpg' | prepend: base_path }}" alt="" style="width: 20px; vertical-align: middle; margin-right: 4px;">{{ author.employer }}</p>{% endif %}
+    {% if author.bio or author.employer %}
+    <div class="author__affiliation">
+      <div class="author__affiliation-text">
+        {% if author.bio %}<p class="author__bio">{{ author.bio }}</p>{% endif %}
+        {% if author.employer %}<p class="author__employer">{{ author.employer }}</p>{% endif %}
+      </div>
+      <div class="author__affiliation-logo">
+        <img src="{{ '/images/PU-logo_Page_01.jpg' | prepend: base_path }}" alt="Princeton University">
+      </div>
+    </div>
+    {% endif %}
   </div>
 
   <div class="author__urls-wrapper">
