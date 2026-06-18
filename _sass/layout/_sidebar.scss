@@ -114,6 +114,7 @@
     width: 100%;
     padding-left: 0;
     padding-right: 0;
+    position: relative;
   }
 }
 
@@ -164,9 +165,9 @@
     display: block;
     width: 30px !important;
     height: auto;
-    margin-top: 6px;
-    float: right;
-    margin-top: -2.4em;
+    position: absolute;
+    right: 0;
+    bottom: 0;
   }
 }
 
