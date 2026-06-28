@@ -5,7 +5,7 @@ category: chapters
 coauthors: 'Matias D. Cattaneo and Gonzalo Vazquez-Bare'
 date: 2020-01-01
 venue: 'Handbook of Research Methods in Political Science and International Relations'
-pages: '2020'
+pages: 'Ch. 44, pp. 835-847, 2020'
 title_link: "/files/publications/CattaneoTitiunikVazquezBare2020-sage.pdf"
 links:
   - name: "Replication"

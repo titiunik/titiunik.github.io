@@ -5,6 +5,7 @@ category: chapters
 coauthors: 'Luke Keele and Matias Cattaneo'
 date: 2023-01-01
 venue: 'Handbook of Matching and Weighting in Causal Inference'
+pages: 'Ch. 8, pp. 153-168, 2023'
 title_link: "/files/publications/CattaneoKeeleTitiunik2023-HandbookCh.pdf"
 links:
   - name: "Software"
