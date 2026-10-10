@@ -4,10 +4,12 @@ collection: publications
 category: manuscripts
 coauthors: 'Matias Cattaneo and Carlos Diaz'
 date: 2026-01-05
-pages: 'forthcoming'
 venue: 'Journal of the Royal Statistical Society: Series A'
-title_link: "/files/publications/CattaneoDiazTitiunik2025-JRSSA.pdf"
+pages: '189(4): 2127-2146, 2026'
+title_link: "/files/publications/CattaneoDiazTitiunik2026-JRSSA.pdf"
 links:
   - name: "Appendix"
-    url: "/files/publications/CattaneoDiazTitiunik2025-JRSSA-SA.pdf"
+    url: "/files/publications/CattaneoDiazTitiunik2026-JRSSA-SA.pdf"
+  - name: "Replication"
+    url: "https://github.com/mdcattaneo/replication-CDT_2026_JRSSA"
 ---
