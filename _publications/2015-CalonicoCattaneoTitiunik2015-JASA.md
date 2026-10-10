@@ -2,7 +2,7 @@
 title: "Optimal Data-Driven Regression Discontinuity Plots"
 collection: publications
 category: manuscripts
-coauthors: 'Sebastian Calonico and Matias D. Cattaneo'
+coauthors: 'Sebastian Calonico and Matias Cattaneo'
 date: 2015-01-01
 venue: 'Journal of the American Statistical Association'
 pages: '110(512): 1753-1769, 2015'

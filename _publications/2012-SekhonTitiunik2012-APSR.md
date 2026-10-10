@@ -2,7 +2,7 @@
 title: "When Natural Experiments Are Neither Natural Nor Experiments"
 collection: publications
 category: manuscripts
-coauthors: 'Jasjeet S. Sekhon'
+coauthors: 'Jasjeet Sekhon'
 date: 2012-01-01
 venue: 'American Political Science Review'
 pages: '106(1): 35-57, 2012'

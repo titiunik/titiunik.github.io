@@ -2,7 +2,7 @@
 title: "Regression Discontinuity Designs"
 collection: publications
 category: manuscripts
-coauthors: 'Matias D. Cattaneo'
+coauthors: 'Matias Cattaneo'
 date: 2022-01-01
 venue: 'Annual Review of Economics'
 pages: '14: 821-851, 2022'

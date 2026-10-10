@@ -2,7 +2,7 @@
 title: "Cause or Effect? Turnout in Hispanic Majority-Minority Districts"
 collection: publications
 category: manuscripts
-coauthors: 'John A. Henderson and Jasjeet S. Sekhon'
+coauthors: 'John Henderson and Jasjeet Sekhon'
 date: 2016-01-01
 venue: 'Political Analysis'
 pages: '24(3): 404-412, 2016'

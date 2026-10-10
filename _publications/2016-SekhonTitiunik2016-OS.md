@@ -2,7 +2,7 @@
 title: "Understanding Regression Discontinuity Designs as Observational Studies"
 collection: publications
 category: manuscripts
-coauthors: 'Jasjeet S. Sekhon'
+coauthors: 'Jasjeet Sekhon'
 date: 2016-01-01
 venue: 'Observational Studies'
 pages: '2: 174-182, 2016'

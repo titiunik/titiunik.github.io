@@ -2,7 +2,7 @@
 title: "Robust Nonparametric Confidence Intervals for Regression-Discontinuity Designs"
 collection: publications
 category: manuscripts
-coauthors: 'Sebastian Calonico and Matias D. Cattaneo'
+coauthors: 'Sebastian Calonico and Matias Cattaneo'
 date: 2014-01-01
 venue: 'Econometrica'
 pages: '82(6): 2295-2326, 2014'

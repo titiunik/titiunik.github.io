@@ -2,7 +2,7 @@
 title: "Prediction Intervals for Synthetic Control Methods"
 collection: publications
 category: manuscripts
-coauthors: 'Matias D. Cattaneo and Yingjie Feng'
+coauthors: 'Matias Cattaneo and Yingjie Feng'
 date: 2021-01-01
 venue: 'Journal of the American Statistical Association'
 pages: '116(536): 1865-1880, 2021'

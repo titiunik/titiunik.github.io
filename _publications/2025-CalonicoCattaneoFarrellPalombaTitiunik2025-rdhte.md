@@ -2,7 +2,7 @@
 title: "rdhte: Conditional Average Treatment Effects in RD Designs"
 collection: publications
 category: software
-coauthors: 'Sebastian Calonico, Matias D. Cattaneo, Max H. Farrell and Filippo Palomba'
+coauthors: 'Sebastian Calonico, Matias Cattaneo, Max Farrell and Filippo Palomba'
 date: 2026-01-01
 venue: 'Working paper'
 pages: '2025'

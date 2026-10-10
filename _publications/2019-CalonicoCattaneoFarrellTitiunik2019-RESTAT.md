@@ -2,7 +2,7 @@
 title: "Regression Discontinuity Designs Using Covariates"
 collection: publications
 category: manuscripts
-coauthors: 'Sebastian Calonico, Matias D. Cattaneo and Max H. Farrell'
+coauthors: 'Sebastian Calonico, Matias Cattaneo and Max Farrell'
 date: 2019-01-01
 venue: 'Review of Economics and Statistics'
 pages: '101(3): 442-451, 2019'

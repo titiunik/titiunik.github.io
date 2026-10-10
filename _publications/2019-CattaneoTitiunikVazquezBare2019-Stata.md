@@ -2,7 +2,7 @@
 title: "Power Calculations for Regression Discontinuity Designs"
 collection: publications
 category: software
-coauthors: 'Matias D. Cattaneo and Gonzalo Vazquez-Bare'
+coauthors: 'Matias Cattaneo and Gonzalo Vazquez-Bare'
 date: 2019-01-01
 venue: 'Stata Journal'
 pages: '19(1): 210-245, 2019'

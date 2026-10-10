@@ -2,7 +2,7 @@
 title: "Interpreting Regression Discontinuity Designs with Multiple Cutoffs"
 collection: publications
 category: manuscripts
-coauthors: 'Matias D. Cattaneo, Luke Keele and Gonzalo Vazquez-Bare'
+coauthors: 'Matias Cattaneo, Luke Keele and Gonzalo Vazquez-Bare'
 date: 2016-01-01
 venue: 'Journal of Politics'
 pages: '78(4): 1229-1248, 2016'

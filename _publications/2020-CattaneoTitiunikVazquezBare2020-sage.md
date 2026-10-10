@@ -2,7 +2,7 @@
 title: "The Regression Discontinuity Design"
 collection: publications
 category: chapters
-coauthors: 'Matias D. Cattaneo and Gonzalo Vazquez-Bare'
+coauthors: 'Matias Cattaneo and Gonzalo Vazquez-Bare'
 date: 2020-01-01
 venue: 'Handbook of Research Methods in Political Science and International Relations'
 pages: 'Ch. 44, pp. 835-857, 2020'

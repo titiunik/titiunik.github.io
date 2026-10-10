@@ -1,7 +1,7 @@
 ---
 title: "Estimation and Inference in Boundary Discontinuity Designs: Pooling-Based Methods"
 collection: inprogress
-coauthors: 'Matias D. Cattaneo and Ruiqi (Rae) Yu'
+coauthors: 'Matias Cattaneo and Rae Yu'
 date: 2026-06-01
 links:
   - name: "Previous Draft"

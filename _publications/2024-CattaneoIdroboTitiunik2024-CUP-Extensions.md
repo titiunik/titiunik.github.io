@@ -2,7 +2,7 @@
 title: "A Practical Introduction to Regression Discontinuity Designs: Extensions"
 collection: publications
 category: books
-coauthors: 'Matias D. Cattaneo and Nicolás Idrobo'
+coauthors: 'Matias Cattaneo and Nicolás Idrobo'
 date: 2024-01-01
 venue: 'Cambridge University Press'
 pages: '2024'

@@ -2,7 +2,7 @@
 title: "Robust Data-Driven Inference in the Regression-Discontinuity Design"
 collection: publications
 category: software
-coauthors: 'Sebastian Calonico and Matias D. Cattaneo'
+coauthors: 'Sebastian Calonico and Matias Cattaneo'
 date: 2014-01-01
 venue: 'Stata Journal'
 pages: '14(4): 909-946, 2014'

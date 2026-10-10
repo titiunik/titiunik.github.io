@@ -2,7 +2,7 @@
 title: "Uncertainty Quantification in Synthetic Controls with Staggered Treatment Adoption"
 collection: publications
 category: manuscripts
-coauthors: 'Matias D. Cattaneo, Yingjie Feng and Filippo Palomba'
+coauthors: 'Matias Cattaneo, Yingjie Feng and Filippo Palomba'
 date: 2026-06-07
 pages: 'forthcoming'
 title_link: "/files/publications/CattaneoFengPalombaTitiunik2025-RESTAT.pdf"

@@ -2,7 +2,7 @@
 title: "Parties as Disciplinarians: Charisma and Commitment Problems in Programmatic Campaigning"
 collection: publications
 category: manuscripts
-coauthors: 'James R. Hollyer and Marko Klašnja'
+coauthors: 'James Hollyer and Marko Klašnja'
 date: 2022-01-01
 venue: 'American Journal of Political Science'
 pages: '66(1): 75-92, 2022'

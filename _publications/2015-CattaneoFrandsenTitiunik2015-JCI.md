@@ -2,7 +2,7 @@
 title: "Randomization Inference in the Regression Discontinuity Design: An Application to Party Advantages in the U.S. Senate"
 collection: publications
 category: manuscripts
-coauthors: 'Matias D. Cattaneo and Brigham R. Frandsen'
+coauthors: 'Matias Cattaneo and Brigham Frandsen'
 date: 2015-01-01
 venue: 'Journal of Causal Inference'
 pages: '3(1): 1-24, 2015'
