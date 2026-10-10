@@ -16,15 +16,13 @@
 
   <div class="author__content">
     <div class="author__heading">
-      <h2 class="author__name">{{ author.name }}</h2>
-      {% if author.pronouns %}<p class="author__pronouns">{{ author.pronouns }}</p>{% endif %}
-      <div class="author__affiliation">
-        <div class="author__affiliation-text">
-          {% if author.bio %}<p class="author__bio">{{ author.bio }}</p>{% endif %}
-          {% if author.employer %}<p class="author__employer">{{ author.employer }}</p>{% endif %}
-        </div>
-        {% if author.employer %}<img src="{{ '/images/PU-logo_Page_01.jpg' | prepend: base_path }}" alt="" class="author__uni-logo">{% endif %}
+      <div class="author__heading-text">
+        <h2 class="author__name">{{ author.name }}</h2>
+        {% if author.pronouns %}<p class="author__pronouns">{{ author.pronouns }}</p>{% endif %}
+        {% if author.bio %}<p class="author__bio">{{ author.bio }}</p>{% endif %}
+        {% if author.employer %}<p class="author__employer">{{ author.employer }}</p>{% endif %}
       </div>
+      {% if author.employer %}<img src="{{ '/images/PU-logo_Page_01.jpg' | prepend: base_path }}" alt="" class="author__uni-logo">{% endif %}
     </div>
   </div>
 

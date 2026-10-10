@@ -117,12 +117,11 @@
   }
 }
 
-/* Name, then title and university below it. The gap is the space between the
-   name and the title */
+/* Name, title and university in one column, with the university logo to their
+   right, centered on the height of the three lines */
 .author__heading {
   display: flex;
-  flex-direction: column;
-  gap: 8px;
+  align-items: center;
 
   @include breakpoint($large) {
     margin-top: 10px;
@@ -143,22 +142,15 @@
   .author__uni-logo {
     flex: none;
     display: block;
-    width: 26px !important;
+    width: 30px !important;
     height: auto;
-    margin-left: 12px;
+    margin-left: 14px;
   }
 }
 
-/* Title and university, with the university logo to their right, centered on
-   the height of the two lines */
-.author__affiliation {
-  display: flex;
-  align-items: center;
-}
-
-/* The gap is the space between the title and the university; keep it equal to
-   the gap in .author__heading */
-.author__affiliation-text {
+/* The gap is the space between the name and the title, and between the title
+   and the university */
+.author__heading-text {
   display: flex;
   flex-direction: column;
   gap: 8px;
