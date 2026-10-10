@@ -5,6 +5,6 @@ type: "Short Course"
 permalink: /shcourses/2021-01-RD-StatHorizons/
 venue: "Statistical Horizons"
 venue_url: "https://statisticalhorizons.com/"
-date: 2021-10-01
+date: 2021-01-01
 location: "Online"
 ---

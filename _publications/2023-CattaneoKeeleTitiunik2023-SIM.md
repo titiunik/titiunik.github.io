@@ -2,7 +2,7 @@
 title: "A Guide to Regression Discontinuity Designs in Medical Applications"
 collection: publications
 category: manuscripts
-coauthors: 'Luke Keele and Matias Cattaneo'
+coauthors: 'Matias D. Cattaneo and Luke Keele'
 date: 2023-01-01
 venue: 'Statistics in Medicine'
 pages: '42(24): 4484-4513, 2023'

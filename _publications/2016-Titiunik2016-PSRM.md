@@ -4,13 +4,13 @@ collection: publications
 category: manuscripts
 date: 2016-01-01
 venue: 'Political Science Research and Methods'
-pages: '4(2): 293-316'
+pages: '4(2): 293-316, 2016'
 title_link: "/files/publications/Titiunik2016-PSRM.pdf"
 links:
   - name: "Paper"
     url: "/files/publications/Titiunik2016-PSRM.pdf"
-  - name: "Apendix"
+  - name: "Appendix"
     url: "/files/publications/Titiunik2016-PSRM-SA.pdf"
   - name: "Replication"
-    url: "https://titiunik.github.io/papers/Titiunik2016-PSRM-Replication-Files.zip"
+    url: "/files/publications/Titiunik2016-PSRM-Replication-Files.zip"
 ---

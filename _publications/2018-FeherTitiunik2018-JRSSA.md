@@ -12,4 +12,6 @@ links:
     url: "/files/publications/FeherTitiunik2018-JRSSA.pdf"
   - name: "Appendix"
     url: "/files/publications/FeherTitiunik2018-JRSSA-SA.pdf"
+  - name: "Replication"
+    url: "/files/publications/FeherTitiunik2018-JRSSA-replication-files.zip"
 ---

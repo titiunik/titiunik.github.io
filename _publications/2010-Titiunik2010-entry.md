@@ -1,5 +1,5 @@
 ---
-title: "Two Tailed Test"
+title: "Two-Tailed Test"
 collection: publications
 category: chapters
 date: 2010-01-01

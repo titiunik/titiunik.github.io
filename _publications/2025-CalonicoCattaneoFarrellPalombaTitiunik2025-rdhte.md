@@ -1,5 +1,5 @@
 ---
-title: "rdhte: Conditional Average Treatment Effects in Regression Discontinuity Designs"
+title: "rdhte: Conditional Average Treatment Effects in RD Designs"
 collection: publications
 category: software
 coauthors: 'Sebastian Calonico, Matias D. Cattaneo, Max H. Farrell and Filippo Palomba'

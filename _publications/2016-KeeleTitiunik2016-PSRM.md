@@ -5,7 +5,7 @@ category: manuscripts
 coauthors: 'Luke Keele'
 date: 2016-01-01
 venue: 'Political Science Research and Methods'
-pages: '4(1): 65-95'
+pages: '4(1): 65-95, 2016'
 title_link: "/files/publications/KeeleTitiunik2016-PSRM.pdf"
 links:
   - name: "Paper"

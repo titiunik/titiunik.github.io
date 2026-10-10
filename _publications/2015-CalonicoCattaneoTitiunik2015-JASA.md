@@ -5,7 +5,7 @@ category: manuscripts
 coauthors: 'Sebastian Calonico and Matias D. Cattaneo'
 date: 2015-01-01
 venue: 'Journal of the American Statistical Association'
-pages: '110(512): 1753-1769'
+pages: '110(512): 1753-1769, 2015'
 title_link: "/files/publications/CalonicoCattaneoTitiunik2015-JASA.pdf"
 links:
   - name: "Paper"

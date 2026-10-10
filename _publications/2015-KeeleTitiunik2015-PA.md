@@ -2,7 +2,7 @@
 title: "Geographic Boundaries as Regression Discontinuities"
 collection: publications
 category: manuscripts
-coauthors: 'Luke Keele'
+coauthors: 'Luke J. Keele'
 date: 2015-01-01
 venue: 'Political Analysis'
 pages: '23(1): 127-155, 2015'

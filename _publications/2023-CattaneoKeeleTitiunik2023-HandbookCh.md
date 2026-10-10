@@ -2,9 +2,9 @@
 title: "Covariate Adjustment in Regression Discontinuity Designs"
 collection: publications
 category: chapters
-coauthors: 'Luke Keele and Matias Cattaneo'
+coauthors: 'Matias D. Cattaneo and Luke Keele'
 date: 2023-01-01
-venue: 'Handbook of Matching and Weighting in Causal Inference'
+venue: 'Handbook of Matching and Weighting Adjustments for Causal Inference'
 pages: 'Ch. 8, pp. 153-168, 2023'
 title_link: "/files/publications/CattaneoKeeleTitiunik2023-HandbookCh.pdf"
 links:

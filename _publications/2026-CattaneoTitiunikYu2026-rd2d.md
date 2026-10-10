@@ -2,7 +2,7 @@
 title: "rd2d: Causal Inference in Boundary Discontinuity Designs"
 collection: publications
 category: software
-coauthors: 'Matias D. Cattaneo and Rae Yu'
+coauthors: 'Matias D. Cattaneo and Ruiqi (Rae) Yu'
 date: 2026-02-01
 venue: 'Working paper'
 pages: '2026'
