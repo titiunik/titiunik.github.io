@@ -1,5 +1,5 @@
 ---
-title: "Legislative Behavior Absent Reelection Incentives: Findings from a Natural Experiment in the Arkansas Senate"
+title: "Legislative Behaviour Absent Re-Election Incentives: Findings from a Natural Experiment in the Arkansas Senate"
 collection: publications
 category: manuscripts
 coauthors: 'Andrew Feher'
