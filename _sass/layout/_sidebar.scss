@@ -92,31 +92,17 @@ $avatar-overhang: 16px;
    Author profile and links
    ========================================================================== */
 
-.author__avatar {
-  display: table-cell;
-  vertical-align: top;
-  width: 36px;
-
-  @include breakpoint($large) {
-    display: block;
-    width: auto;
-    height: auto;
-  }
-
-  img {
-    max-width: 180px;
-    border-radius: 50%;
-
-    @include breakpoint($large) {
-      padding: 3px;
-      border: 1px solid #e0e0e0;
-    }
-  }
-}
-
-/* On wide screens the block with picture, name and links is as wide as its
-   widest line of text */
+/* The block with picture, name and links.
+   Phones: the picture on the left, the name beside it, the links in a row
+   below both.
+   Wide screens: one column, as wide as its widest line of text */
 .author {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr);
+  column-gap: 16px;
+  row-gap: 14px;
+  align-items: center;
+
   @include breakpoint($large) {
     display: inline-block;
     max-width: 100%;
@@ -124,10 +110,12 @@ $avatar-overhang: 16px;
   }
 }
 
-/* On wide screens the box of the picture takes the width of the text without
-   adding to it; the picture is centered in that box and extends past it
-   equally on both sides */
+/* The box of the picture. On phones its width sets the size of the picture.
+   On wide screens it takes the width of the text without adding to it; the
+   picture is centered in it and extends past it equally on both sides */
 .sidebar div.author__avatar {
+  width: 96px;
+
   @include breakpoint($large) {
     display: flex;
     justify-content: center;
@@ -136,27 +124,27 @@ $avatar-overhang: 16px;
   }
 }
 
-/* The width sets the size of the picture */
+/* The picture. On wide screens the width sets its size */
 .sidebar img.author__avatar {
+  display: block;
+  width: 100%;
+  border-radius: 50%;
+
   @include breakpoint($large) {
     flex: none;
     width: 180px;
     max-width: calc(100% + #{2 * $avatar-overhang});
+    padding: 3px;
+    border: 1px solid #e0e0e0;
   }
 }
 
 .author__content {
-  display: table-cell;
-  vertical-align: top;
-  padding-left: 15px;
-  padding-right: 25px;
+  min-width: 0;
   line-height: 1;
 
   @include breakpoint($large) {
-    display: block;
     width: 100%;
-    padding-left: 0;
-    padding-right: 0;
   }
 }
 
@@ -235,8 +223,13 @@ $avatar-overhang: 16px;
   }
 }
 
+/* The links. On phones they come in a row below the picture and the name; on
+   wide screens they are a list under a thin line */
 .author__urls-wrapper {
-  /* Separator between profile info and links list */
+  grid-column: 1 / -1;
+  position: relative;
+  font-family: $sans-serif;
+
   @include breakpoint($large) {
     margin-top: 16px;
     padding-top: 12px;
@@ -252,97 +245,26 @@ $avatar-overhang: 16px;
       left: 0;
     }
   }
-
-  position: relative;
-  display: table-cell;
-  vertical-align: middle;
-  font-family: $sans-serif;
-  z-index: 10;
-  cursor: pointer;
-
-  li:last-child {
-    a {
-      margin-bottom: 0;
-    }
-  }
-
-  @include breakpoint($large) {
-    display: block;
-  }
-
-  button {
-    margin-bottom: 0;
-
-    @include breakpoint($large) {
-      display: none;
-    }
-  }
 }
 
 .author__urls {
-  display: none;
-  position: absolute;
-  right: 0;
-  margin-top: 15px;
-  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 18px;
+  margin: 0;
+  padding: 0;
   list-style-type: none;
-  border: 1px solid var(--global-border-color);
-  border-radius: $border-radius;
-  background: var(--global-bg-color);
-  z-index: -1;
-  box-shadow: 0 0 10px rgba(#000, 0.25);
-  cursor: default;
 
   @include breakpoint($large) {
     display: block;
-    position: relative;
-    margin: 0;
-    padding: 0;
-    border: 0;
-    background: transparent;
-    box-shadow: none;
-  }
-
-  &:before {
-    display: block;
-    content: "";
-    position: absolute;
-    top: -11px;
-    left: calc(50% - 10px);
-    width: 0;
-    border-style: solid;
-    border-width: 0 10px 10px;
-    border-color: var(--global-border-color) transparent;
-    z-index: 0;
-
-    @include breakpoint($large) {
-      display: none;
-    }
-  }
-
-  &:after {
-    display: block;
-    content: "";
-    position: absolute;
-    top: -10px;
-    left: calc(50% - 10px);
-    width: 0;
-    border-style: solid;
-    border-width: 0 10px 10px;
-    border-color: #fff transparent;
-    z-index: 1;
-
-    @include breakpoint($large) {
-      display: none;
-    }
   }
 
   li {
+    margin: 0;
     white-space: nowrap;
 
     /* On wide screens, show one link per line */
     @include breakpoint($large) {
-      display: block;
       margin-bottom: 6px;
     }
   }
@@ -355,20 +277,9 @@ $avatar-overhang: 16px;
   }
 
   a {
-    display: block;
-    margin-bottom: 5px;
-    padding-right: 5px;
-    padding-top: 2px;
-    padding-bottom: 2px;
     color: inherit;
     font-size: $type-size-5;
     text-decoration: none;
-
-    @include breakpoint($large) {
-      display: inline;
-      margin-bottom: 0;
-      padding: 0;
-    }
 
     &:hover {
       text-decoration: underline;

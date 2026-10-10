@@ -61,10 +61,11 @@ function updateNav() {
   // update masthead height and the body/sidebar top padding
   var mastheadHeight = $('.masthead').height();
   $('body').css('padding-top', mastheadHeight + 'px');
-  if ($(".author__urls-wrapper button").is(":visible")) {
-    $(".sidebar").css("padding-top", "");
-  } else {
+  // The left column starts below the menu bar on wide screens only; the width is $large in /_sass/_themes.scss
+  if (window.matchMedia("(min-width: 57.8125em)").matches) {
     $(".sidebar").css("padding-top", mastheadHeight + "px");
+  } else {
+    $(".sidebar").css("padding-top", "");
   }
 
 }
