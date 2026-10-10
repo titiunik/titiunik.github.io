@@ -117,14 +117,46 @@
   }
 }
 
-.author__name {
-  margin: 0;
+/* Name, title and university in one column, with the university logo to their
+   right, centered on the height of the three lines */
+.author__heading {
+  display: flex;
+  align-items: center;
 
   @include breakpoint($large) {
     margin-top: 10px;
-    margin-bottom: 4px;
+  }
+
+  .author__name {
+    margin: 0;
+    line-height: 1;
+  }
+
+  .author__bio,
+  .author__employer {
+    margin: 0 !important;
+    line-height: 1.2;
+  }
+
+  /* The width sets the size of the logo */
+  .author__uni-logo {
+    flex: none;
+    display: block;
+    width: 30px !important;
+    height: auto;
+    margin-left: 14px;
   }
 }
+
+/* The gap is the space between the name and the title, and between the title
+   and the university */
+.author__heading-text {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  min-width: 0;
+}
+
 .sidebar .author__name {
   font-family: $sans-serif;
   font-size: $type-size-2;
@@ -145,26 +177,6 @@
     margin-top: 10px;
     margin-bottom: 10px;
   }
-}
-
-.author__bio {
-  margin: 0 0 0 0 !important;
-  line-height: 1.4;
-}
-
-.author__employer {
-  margin: 0 0 0 0 !important;
-  line-height: 1.4;
-}
-
-.author__uni-logo {
-  width: 22px !important;
-  height: auto;
-  display: inline !important;
-  vertical-align: baseline;
-  margin-left: 3px;
-  position: relative;
-  top: -1px;
 }
 
 .author__urls-wrapper {
