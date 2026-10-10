@@ -92,7 +92,7 @@
   }
 
   img {
-    max-width: 160px;
+    max-width: 180px;
     border-radius: 50%;
 
     @include breakpoint($large) {
@@ -117,10 +117,16 @@
   }
 }
 
-/* Name, title and university in one column, with the university logo to their
-   right, centered on the height of the three lines */
+/* A table of three rows: name, title, university. The name takes the full
+   width; the university logo is in a second column beside the title and the
+   university, centered on the height of those two rows. The third column takes
+   the remaining width, so that the name does not push the logo to the right.
+   row-gap is the space between the three lines */
 .author__heading {
-  display: flex;
+  display: grid;
+  grid-template-columns: auto auto 1fr;
+  column-gap: 12px;
+  row-gap: 8px;
   align-items: center;
 
   @include breakpoint($large) {
@@ -128,33 +134,39 @@
   }
 
   .author__name {
+    grid-column: 1 / -1;
     margin: 0;
     line-height: 1;
   }
 
   .author__bio,
   .author__employer {
+    grid-column: 1;
     margin: 0 !important;
     line-height: 1.2;
   }
 
+  .author__bio {
+    grid-row: 2;
+  }
+
+  .author__employer {
+    grid-row: 3;
+  }
+
   /* The width sets the size of the logo */
   .author__uni-logo {
-    flex: none;
+    grid-column: 2;
+    grid-row: 2 / span 2;
     display: block;
-    width: 30px !important;
+    width: 26px !important;
     height: auto;
-    margin-left: 14px;
   }
 }
 
-/* The gap is the space between the name and the title, and between the title
-   and the university */
+/* Place the three lines directly in the rows of .author__heading */
 .author__heading-text {
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-  min-width: 0;
+  display: contents;
 }
 
 .sidebar .author__name {
