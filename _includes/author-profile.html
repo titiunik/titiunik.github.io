@@ -16,13 +16,15 @@
 
   <div class="author__content">
     <div class="author__heading">
-      <div class="author__heading-text">
-        <h2 class="author__name">{{ author.name }}</h2>
-        {% if author.pronouns %}<p class="author__pronouns">{{ author.pronouns }}</p>{% endif %}
-        {% if author.bio %}<p class="author__bio">{{ author.bio }}</p>{% endif %}
-        {% if author.employer %}<p class="author__employer">{{ author.employer }}</p>{% endif %}
+      <h2 class="author__name">{{ author.name }}</h2>
+      {% if author.pronouns %}<p class="author__pronouns">{{ author.pronouns }}</p>{% endif %}
+      <div class="author__affiliation">
+        <div class="author__affiliation-text">
+          {% if author.bio %}<p class="author__bio">{{ author.bio }}</p>{% endif %}
+          {% if author.employer %}<p class="author__employer">{{ author.employer }}</p>{% endif %}
+        </div>
+        {% if author.employer %}<img src="{{ '/images/PU-logo_Page_01.jpg' | prepend: base_path }}" alt="" class="author__uni-logo">{% endif %}
       </div>
-      {% if author.employer %}<img src="{{ '/images/PU-logo_Page_01.jpg' | prepend: base_path }}" alt="" class="author__uni-logo">{% endif %}
     </div>
   </div>
 
@@ -36,14 +38,17 @@
       {% if site.author.cv_url %}
         <li><a href="{{ site.author.cv_url }}"><i class="fas fa-fw fa-file-pdf icon-pad-right"></i>CV</a></li>
       {% endif %}
+      {% if author.googlescholar %}
+        <li><a href="{{ author.googlescholar }}"><i class="ai ai-google-scholar ai-fw icon-pad-right"></i>Google Scholar</a></li>
+      {% endif %}
+      {% if author.github %}
+        <li><a href="https://github.com/{{ author.github }}"><i class="fab fa-fw fa-github icon-pad-right" aria-hidden="true"></i>GitHub</a></li>
+      {% endif %}
       {% if author.arxiv %}
         <li><a href="{{ author.arxiv }}"><i class="ai ai-arxiv ai-fw icon-pad-right"></i>arXiv</a></li>
       {% endif %}
       {% if author.orcid %}
         <li><a href="{{ author.orcid }}"><i class="ai ai-orcid ai-fw icon-pad-right"></i>ORCID</a></li>
-      {% endif %}
-      {% if author.googlescholar %}
-        <li><a href="{{ author.googlescholar }}"><i class="ai ai-google-scholar ai-fw icon-pad-right"></i>Google Scholar</a></li>
       {% endif %}
       {% if author.uri %}
         <li><a href="{{ author.uri }}"><i class="fas fa-fw fa-link icon-pad-right" aria-hidden="true"></i>{{ site.data.ui-text[site.locale].website_label | default: "Website" }}</a></li>
@@ -79,9 +84,6 @@
       {% endif %}      
       {% if author.dribbble %}
         <li><a href="https://dribbble.com/{{ author.dribbble }}"><i class="fab fa-fw fa-dribbble icon-pad-right" aria-hidden="true"></i>Dribbble</a></li>
-      {% endif %}      
-      {% if author.github %}
-        <li><a href="https://github.com/{{ author.github }}"><i class="fab fa-fw fa-github icon-pad-right" aria-hidden="true"></i>GitHub</a></li>
       {% endif %}
       {% if author.kaggle %}
         <li><a href="https://kaggle.com/{{ author.kaggle }}"><i class="fab fa-fw fa-kaggle icon-pad-right" aria-hidden="true"></i>Kaggle</a></li>
